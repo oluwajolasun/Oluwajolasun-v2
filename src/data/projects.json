@@ -61,11 +61,11 @@
       "objectId": "66cee744ffsrfa9c32ff7ca8"
     },
     {
-      "projectTitle": "My Portfolio",
+      "projectTitle": "Portfolio v1",
       "projectDescription": "An early project made from scratch which went through different versions. Understanding of HTML, CSS and JS was vital before i could finalize the design of this portfolio.",
       "projectType": "Website",
       "sourceCodeLink": "https://github.com/oluwajolasun/Portfolio",
-      "demoLink": "https://oluwajolasun.com/",
+      "demoLink": "https://v1.oluwajolasun.com",
       "imagePath": "/PortfolioV1.png",
       "tools": ["HTML", "CSS", "Javascript", "Bootstrap"],
       "objectId": "66cee744ffdbfa9c32ff7ca9"
