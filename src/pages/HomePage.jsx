@@ -1,11 +1,11 @@
 const HomePage = () => {
   return (
-    <div className="container mx-auto flex min-h-screen justify-center transition">
+    <div className="container mx-auto flex min-h-screen justify-center transition pt-[80px]">
       <div className="flex flex-col items-center justify-center gap-8 lg:flex-row-reverse">
         <img
           src="/images/headshot-square.jpg"
           alt=""
-          className="w-60 rounded-full md:min-w-96"
+          className="max-w-64 rounded-full md:max-w-96"
         />
         <div className="lg:w-8/12">
           <p className="mb-4 text-5xl font-black text-primary md:text-6xl">
