@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "projectTitle": "Playback",
+      "projectDescription": "Using TMDB public api to search for popular movies, movie details, top rated movies and more on the client side, to further enhance this project would be to create a movie 'wishlister'",
+      "projectType": "Progressive Web App",
+      "sourceCodeLink": "https://github.com/oluwajolasun/playback",
+      "demoLink": "https://playback-app.netlify.app/",
+      "imagePath": "/PlaybackApp.png",
+      "tools": ["React", "Tailwindcss", "Node", "DaisyUI", "TMDB Api"],
+      "objectId": "66cee23affdbfa9c32ff7c5e"
+    },
+    {
+      "projectTitle": "Spotify Clone",
+      "projectDescription": "Converted a mobile ready view spotify clone a web version",
+      "projectType": "Progressive Web App",
+      "sourceCodeLink": "https://github.com/oluwajolasun/expo-spotify",
+      "demoLink": "https://spotify-expo-oluwajolasun.netlify.app/",
+      "imagePath": "/SpotifyClone.png",
+      "tools": ["React Native", "Expo", "Styled Components"],
+      "objectId": "66cee58affdbfa9c32ff7c1t"
+    },
+    {
+      "projectTitle": "Spotify Companion App",
+      "projectDescription": "You do not have to wait to the end of the year to view your Spotify unwrapped when I have this companion app more features coming soon...",
+      "projectType": "Web App",
+      "sourceCodeLink": "https://github.com/oluwajolasun/Spotify",
+      "demoLink": "https://spotify-web-companion.netlify.app/",
+      "imagePath": "/SpotifyWebCompanion.png",
+      "tools": ["Express", "React", "Node", "Styled Components", "Spotify Api"],
+      "objectId": "66cee58affdbfa9c32ff7c9f"
+    },
+    {
+      "projectTitle": "Student Registration System",
+      "projectDescription": "A web app for registered students to view all courses, view their registered courses, enroll to a course and drop a course",
+      "projectType": "Web App",
+      "sourceCodeLink": "https://github.com/oluwajolasun/Student-Registration-System",
+      "demoLink": "https://student-registration-system-uofc.netlify.app/",
+      "imagePath": "/StudentRegistrationApp.png",
+      "tools": ["Express", "MySQL", "React", "Node"],
+      "objectId": "66cee58affdbfa9c32ff7ca0"
+    },
+    {
+      "projectTitle": "Afcom Oil and Gas",
+      "projectDescription": "A wordpress managed and developed website for an oil and gas organization.",
+      "projectType": "Website",
+      "sourceCodeLink": null,
+      "demoLink": "https://afcomoilandgas.com/",
+      "imagePath": "/AfcomOilAndGas.png",
+      "tools": ["Wordpress", "CPanel"],
+      "objectId": "66cee58affdbfa9c32ff7ca1"
+    },
+    {
+      "projectTitle": "COVID-19 Tracker",
+      "projectDescription": "This is a minimal Corona Virus Tracker for viewing confirmed, recovered and death cases of selected Countries or worldwide",
+      "projectType": "Web App",
+      "sourceCodeLink": "https://github.com/oluwajolasun/covid19-tracker-reactjs",
+      "demoLink": "https://oluwajolasun-covid-19-tracker.netlify.app/",
+      "imagePath": "/Covid19Tracker.png",
+      "tools": ["Material UI", "React"],
+      "objectId": "66cee744ffsrfa9c32ff7ca8"
+    },
+    {
+      "projectTitle": "My Portfolio",
+      "projectDescription": "An early project made from scratch which went through different versions. Understanding of HTML, CSS and JS was vital before i could finalize the design of this portfolio.",
+      "projectType": "Website",
+      "sourceCodeLink": "https://github.com/oluwajolasun/Portfolio",
+      "demoLink": "https://oluwajolasun.com/",
+      "imagePath": "/PortfolioV1.png",
+      "tools": ["HTML", "CSS", "Javascript", "Bootstrap"],
+      "objectId": "66cee744ffdbfa9c32ff7ca9"
+    },
+    {
+      "projectTitle": "Gif Searcher",
+      "projectDescription": "One of my first react project created to understand how react works, a gif searcher (using the giphy api) a user can search for and click on the gif for details",
+      "projectType": "Web App",
+      "sourceCodeLink": "https://github.com/oluwajolasun/gif-app-reactjs",
+      "demoLink": "https://gif-searcher-oluwajolasun.netlify.app/",
+      "imagePath": "/GifSearchApp.png",
+      "tools": ["React", "Bootstrap", "Giphy API"],
+      "objectId": "66cee744ffdbfa9c32ff7ft4"
+    },
+    {
+      "projectTitle": "Weather App",
+      "projectDescription": "A webapp that displays the weather forecast of your current location by accessing your current coordinates from your device pulling its data from an API",
+      "projectType": "Web App",
+      "sourceCodeLink": "https://github.com/oluwajolasun/a-weather-web-app",
+      "demoLink": "https://oluwajolasun.github.io/a-weather-web-app/",
+      "imagePath": "/WeatherApp.png",
+      "tools": ["HTML", "CSS", "Javascript"],
+      "objectId": "66cee744ffdbfa9c32ff7caa"
+    }
+  ]
+}
