@@ -15,7 +15,7 @@ export default {
         "2xl": "10rem",
       },
     },
-    fontFamily: { sans: "Inter" },
+    fontFamily: { sans: "Inter", draggable: "Caveat" },
     extend: {},
   },
   daisyui: {
@@ -31,6 +31,7 @@ export default {
         dracula: {
           ...dracula,
           primary: "#38BDF8",
+          secondary: "#FA8E00",
         },
       },
     ],

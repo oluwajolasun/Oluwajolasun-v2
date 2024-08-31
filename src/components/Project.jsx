@@ -10,7 +10,7 @@ const Project = ({ projectsList }) => {
         >
           <div className="flex flex-col justify-center">
             <h1 className="mb-2 text-xl uppercase">
-              <b className="hover:underline">
+              <b className="hover:text-primary transition">
                 <a href={`${project.demoLink}`} target="_blank">
                   {project.projectTitle}
                 </a>

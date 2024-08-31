@@ -19,14 +19,14 @@ const SkillsPage = () => {
   const gap = 15;
 
   return (
-    <div className="container mx-auto flex flex-col justify-between overflow-x-clip py-10 lg:flex-row z-50">
+    <div className="container z-50 mx-auto flex flex-col justify-between overflow-x-clip py-10 lg:flex-row">
       <div>
         <h1 className="sticky top-[70px] mb-4 text-3xl font-bold uppercase text-primary md:text-4xl">
-          Skills
+          Skills & Tools
         </h1>
       </div>
       <div className="flex h-fit flex-col lg:w-8/12">
-        <p className="mx-auto w-[325px] pb-6 text-secondary">
+        <p className="font-draggable mx-auto w-[325px] pb-6 text-3xl text-secondary">
           {"<draggables>"}
         </p>
         <motion.div
@@ -62,7 +62,7 @@ const SkillsPage = () => {
             )}
           </motion.div>
         </motion.div>
-        <p className="mx-auto mt-6 w-[325px] text-secondary">
+        <p className="font-draggable mx-auto w-[325px] pt-6 text-3xl text-secondary">
           {"</draggables>"}
         </p>
       </div>
