@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Project = ({ projectsList }) => {
   const projects = projectsList.projects;
 
@@ -10,7 +12,7 @@ const Project = ({ projectsList }) => {
         >
           <div className="flex flex-col justify-center">
             <h1 className="mb-2 text-xl uppercase">
-              <b className="hover:text-primary transition">
+              <b className="transition hover:text-primary">
                 <a href={`${project.demoLink}`} target="_blank">
                   {project.projectTitle}
                 </a>
@@ -73,3 +75,7 @@ const Project = ({ projectsList }) => {
   );
 };
 export default Project;
+
+Project.propTypes = {
+  projectsList: PropTypes.array.isRequired,
+};
