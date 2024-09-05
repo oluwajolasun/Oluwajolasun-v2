@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { motion, useSpring } from "framer-motion";
 import { distance } from "popmotion";
 import skills_svg from "./skills_svg";
@@ -11,7 +12,6 @@ const Skills = ({ active, setActive, colIndex, rowIndex, x, y }) => {
     [1, 1, 1, 1],
   ];
   const isDragging = colIndex === active.col && rowIndex === active.row;
-  const diagonalIndex = (360 / 6) * (colIndex + rowIndex);
   const d = distance(
     { x: active.col, y: active.row },
     { x: colIndex, y: rowIndex },
@@ -23,13 +23,14 @@ const Skills = ({ active, setActive, colIndex, rowIndex, x, y }) => {
   const dx = useSpring(x, springConfig);
   const dy = useSpring(y, springConfig);
 
-  const size = 70;
-  const gap = 15;
+  const size = 65;
+  const gap = 25;
 
   const svgIndex = rowIndex * grid[0].length + colIndex;
-  const Skill_svg = skills_svg[svgIndex % skills_svg.length];
+  const { name: Skill_name, icon: Skill_svg } =
+    skills_svg[svgIndex % skills_svg.length];
 
-  const delay = (colIndex + rowIndex) * 1
+  const delay = (colIndex + rowIndex) * 1;
 
   return (
     <motion.div
@@ -52,7 +53,7 @@ const Skills = ({ active, setActive, colIndex, rowIndex, x, y }) => {
     >
       <motion.div
         animate={{
-          scale: [1, 1.1, 1], // Scaling up and down
+          scale: [1, 1.07, 1], // Scaling up and down
         }}
         transition={{
           duration: 2, // Duration of one cycle
@@ -63,6 +64,7 @@ const Skills = ({ active, setActive, colIndex, rowIndex, x, y }) => {
       >
         <Skill_svg />
       </motion.div>
+      <p className="text-sm text-center">{Skill_name}</p>
     </motion.div>
   );
 };

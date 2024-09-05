@@ -15,8 +15,8 @@ const SkillsPage = () => {
     [1, 1, 1, 1],
   ];
 
-  const size = 70;
-  const gap = 15;
+  const size = 65;
+  const gap = 25;
 
   return (
     <div className="container z-50 mx-auto flex flex-col justify-between overflow-x-clip py-10 lg:flex-row">
@@ -26,44 +26,37 @@ const SkillsPage = () => {
         </h1>
       </div>
       <div className="flex h-fit flex-col lg:w-8/12">
-        <p className="font-draggable mx-auto w-[325px] pb-6 text-3xl text-secondary">
-          {"<draggables>"}
+        <p className="mx-auto w-[325px] pb-6 font-draggable text-3xl text-secondary">
+          {"<they drag>"}
         </p>
         <motion.div
-          animate={{ "--base-hue": 360 }}
-          initial={{ "--base-hue": 0 }}
-          transition={{ duration: 10, loop: Infinity, ease: "linear" }}
-          style={{ width: "100%", height: "100%" }}
+          style={{
+            display: "flex",
+            width: (size + gap) * 4 - gap,
+            height: (size + gap) * 5 - gap,
+            top: "0",
+            left: "0",
+            perspective: 500,
+            margin: "auto",
+            flexDirection: "row",
+          }}
         >
-          <motion.div
-            style={{
-              display: "flex",
-              width: (size + gap) * 4 - gap,
-              height: (size + gap) * 5 - gap,
-              top: "0",
-              left: "0",
-              perspective: 500,
-              margin: "auto",
-              flexDirection: "row",
-            }}
-          >
-            {grid.map((row, rowIndex) =>
-              row.map((_item, colIndex) => (
-                <Skills
-                  x={x}
-                  y={y}
-                  active={active}
-                  setActive={setActive}
-                  rowIndex={rowIndex}
-                  colIndex={colIndex}
-                  key={rowIndex + colIndex}
-                />
-              )),
-            )}
-          </motion.div>
+          {grid.map((row, rowIndex) =>
+            row.map((_item, colIndex) => (
+              <Skills
+                x={x}
+                y={y}
+                active={active}
+                setActive={setActive}
+                rowIndex={rowIndex}
+                colIndex={colIndex}
+                key={rowIndex + colIndex}
+              />
+            )),
+          )}
         </motion.div>
-        <p className="font-draggable mx-auto w-[325px] pt-6 text-3xl text-secondary">
-          {"</draggables>"}
+        <p className="mx-auto w-[325px] pt-6 font-draggable text-3xl text-secondary">
+          {"</they drag>"}
         </p>
       </div>
     </div>
