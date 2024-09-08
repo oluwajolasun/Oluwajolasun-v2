@@ -3,7 +3,7 @@
     {
       "projectTitle": "Playback",
       "projectDescription": "Using TMDB public api to search for popular movies, movie details, top rated movies and more on the client side, to further enhance this project would be to create a movie 'wishlister'",
-      "projectType": "Progressive Web App",
+      "projectType": "Web App",
       "sourceCodeLink": "https://github.com/oluwajolasun/playback",
       "demoLink": "https://playback-app.netlify.app/",
       "imagePath": "/PlaybackApp.png",
@@ -11,8 +11,18 @@
       "objectId": "66cee23affdbfa9c32ff7c5e"
     },
     {
+      "projectTitle": "Say Something",
+      "projectDescription": "A fullstack web application to say something, performing CRUD operations, authentication and validation checks, while maintaining user session and browser cookies",
+      "projectType": "Web App",
+      "sourceCodeLink": "https://github.com/oluwajolasun/say-something",
+      "demoLink": "https://say-something.cleverapps.io/",
+      "imagePath": "/SaySomething.png",
+      "tools": ["Laravel", "PHP","MySQL","Tailwindcss","Blade"],
+      "objectId": "66cee744fff46s9c32ff7caa"
+    },
+    {
       "projectTitle": "Spotify Clone",
-      "projectDescription": "Converted a mobile ready view spotify clone a web version",
+      "projectDescription": "Converted a mobile ready view spotify clone to a web version using react native",
       "projectType": "Progressive Web App",
       "sourceCodeLink": "https://github.com/oluwajolasun/expo-spotify",
       "demoLink": "https://spotify-expo-oluwajolasun.netlify.app/",

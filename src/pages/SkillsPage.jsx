@@ -13,6 +13,7 @@ const SkillsPage = () => {
     [1, 1, 1, 1],
     [1, 1, 1, 1],
     [1, 1, 1, 1],
+    [1, 1, 1, 1],
   ];
 
   const size = 65;
@@ -33,7 +34,7 @@ const SkillsPage = () => {
           style={{
             display: "flex",
             width: (size + gap) * 4 - gap,
-            height: (size + gap) * 5 - gap,
+            height: (size + gap) * 6 - gap,
             top: "0",
             left: "0",
             perspective: 500,

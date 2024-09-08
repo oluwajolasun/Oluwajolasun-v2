@@ -17,7 +17,7 @@ const Skills = ({ active, setActive, colIndex, rowIndex, x, y }) => {
     { x: colIndex, y: rowIndex },
   );
   const springConfig = {
-    stiffness: Math.max(700 - d * 120, 0),
+    stiffness: Math.max(700 - d * 100, 0),
     damping: 20 + d * 5,
   };
   const dx = useSpring(x, springConfig);
@@ -64,7 +64,7 @@ const Skills = ({ active, setActive, colIndex, rowIndex, x, y }) => {
       >
         <Skill_svg />
       </motion.div>
-      <p className="text-sm text-center">{Skill_name}</p>
+      <p className="text-center text-sm">{Skill_name}</p>
     </motion.div>
   );
 };
