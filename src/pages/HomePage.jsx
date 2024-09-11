@@ -1,17 +1,26 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 const HomePage = () => {
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
   return (
     <motion.div className="flex min-h-screen justify-center">
       <div className="container mx-auto flex flex-col justify-center py-10 pt-[80px]">
         <div className="flex flex-col items-center justify-center gap-8 xl:flex-row-reverse">
-          <div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: isImageLoaded ? 1 : 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <img
               src="/images/headshot-square.jpg"
-              alt=""
+              alt="Oluwajolasun Jaiyesimi"
               className="max-w-64 rounded-full md:max-w-96"
+              loading="lazy"
+              onLoad={() => setIsImageLoaded(true)}
             />
-          </div>
+          </motion.div>
           <div className="xl:w-7/12">
             <p className="mb-4 text-5xl font-black text-primary md:text-6xl">
               Oluwajolasun Jaiyesimi
