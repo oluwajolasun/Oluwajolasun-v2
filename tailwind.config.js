@@ -3,6 +3,7 @@ import daisyui from "daisyui";
 import { autumn, dracula } from "daisyui/src/theming/themes";
 
 export default {
+  mode:"jit",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   plugins: [daisyui],
   theme: {
@@ -15,7 +16,7 @@ export default {
         "2xl": "10rem",
       },
     },
-    fontFamily: { sans: "Inter", draggable: "Caveat" },
+    fontFamily: { sans: ["Inter", "system-ui"], draggable: "Caveat" },
     extend: {},
   },
   daisyui: {
