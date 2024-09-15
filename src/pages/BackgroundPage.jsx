@@ -9,10 +9,10 @@ const BackgroundPage = () => {
 
       <div className="lg:w-8/12">
         <p className="mb-6">
-          A recent Masters Degree Software Engineering graduate from the
-          University of Calgary. My tech journey began with a strong interest in
-          web development, after taking a computer science course at
-          loughborough college
+          A Masters Degree Software Engineering graduate from the University of
+          Calgary. My tech journey began with a strong interest in web
+          development, after taking a computer science course at loughborough
+          college
         </p>
         <p className="mb-6">
           I built my first static website by memorizing HTML tags and basic CSS
