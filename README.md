@@ -11,6 +11,3 @@ Tools and technology used for project development:
 - [DaisyUI](https://daisyui.com/)
 - [FramerMotion](https://www.framer.com/motion/)
 - [Netlify](https://www.netlify.com/)
-
-
-
