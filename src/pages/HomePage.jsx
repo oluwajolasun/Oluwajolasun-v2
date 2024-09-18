@@ -35,7 +35,7 @@ const HomePage = () => {
             </p>
             <div className="mx-auto w-fit">
               <a
-                href="Oluwajolasun_Jaiyesimi_Resume.pdf"
+                href="Oluwajolasun Jaiyesimi - Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
