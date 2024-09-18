@@ -20,9 +20,9 @@ import {SkillIconsPhpDark} from './SkillIconsPhpDark';
 import {SkillIconsMysqlDark} from './SkillIconsMysqlDark';
 import {SkillIconsNpmDark} from './SkillIconsNpmDark';
 import {SkillIconsViteDark} from './SkillIconsViteDark';
-import {SkillIconsNetlifyDark} from './SkillIconsNetlifyDark';
 import {SkillIconsDocker} from './SkillIconsDocker';
 import {SkillIconsGolang} from './SkillIconsGolang';
+import {SkillIconsDotnet} from './SkillIconsDotnet';
 
 
 const svg_skills = [
@@ -38,7 +38,7 @@ const svg_skills = [
     { name: "HTML", icon: SkillIconsHtml },
     { name: "Docker", icon: SkillIconsDocker },
     { name: "MySql", icon: SkillIconsMysqlDark },
-    { name: "MongoDB", icon: SkillIconsMongodb },
+    { name: ".NET", icon: SkillIconsDotnet },
     { name: "PostgreSQL", icon: SkillIconsPostgresqlDark },
     { name: "Django", icon: SkillIconsDjango },
     { name: "Spring", icon: SkillIconsSpringDark },
