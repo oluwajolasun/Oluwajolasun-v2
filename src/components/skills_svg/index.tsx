@@ -16,7 +16,7 @@ import { SkillIconsTailwindcssDark } from "./SkillIconsTailwindcssDark";
 import { SkillIconsWordpress } from "./SkillIconsWordpress";
 import { SkillIconsDjango } from "./SkillIconsDjango";
 import {SkillIconsLaravelDark} from './SkillIconsLaravelDark';
-import {SkillIconsPhpDark} from './SkillIconsPhpDark';
+import {SkillIconsCs} from './SkillIconsCs';
 import {SkillIconsMysqlDark} from './SkillIconsMysqlDark';
 import {SkillIconsNpmDark} from './SkillIconsNpmDark';
 import {SkillIconsViteDark} from './SkillIconsViteDark';
@@ -34,7 +34,7 @@ const svg_skills = [
     { name: "Git", icon: SkillIconsGit },
     { name: "GitHub", icon: SkillIconsGithubDark },
     { name: "Node.js", icon: SkillIconsNodejsDark },
-    { name: "Php", icon: SkillIconsPhpDark },
+    { name: "C#", icon: SkillIconsCs },
     { name: "HTML", icon: SkillIconsHtml },
     { name: "Docker", icon: SkillIconsDocker },
     { name: "MySql", icon: SkillIconsMysqlDark },
